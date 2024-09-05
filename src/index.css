@@ -1,0 +1,89 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: match-parent;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg-white : #FFFFFF;
+  --bg-pale-blue: #F5FCFF;
+  --bg-cyan: #006B6A;
+  --blue-magenta : #5E3BEE;
+  --light-blue-magenta: #7E69D3;
+  --very-dark-blue: #1C1E53;
+  --bg-arsenic-100: #394149;
+  --bg-arsenic-200: #282938;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+main {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit !important;
+}
+
+header {
+  box-shadow: 0px 5px 100px 0px #0000001A;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--bg-white);
+}
+
+.navButton {
+  border: 1px solid #5E3BEE !important;
+}
+
+
+.active-link {
+  color: var(--blue-magenta) !important
+}
+
+
+.inactive-link {
+  color: var(--bg-arsenic-200)
+}
+
+
+.iconBox{
+  background-color: var(--bg-pale-blue) !important;
+}
+
+.reviewCard{
+  border: 2px solid #006B6A !important
+}
+
+.form {
+  width: 50vw;
+}
+
+.contactForm {
+  width: 50vw;
+}
+
+@media (min-width: 375px) {
+  .heroImg {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .heroImg {
+    width: 55vw;
+    margin-top: 5rem;
+  }
+}
+
