@@ -12,8 +12,8 @@ const Testimonial = () => {
       >
          <Texts text="Clients Feedback" className="fw-bold" />
          <Headings text="Customer Testimonials" />
-        <div className=" d-flex align-items-center justify-content-between mt-5">
-          <Card style={{ maxWidth: "350px", backgroundColor: "var(--bg-pale-blue)" }} className="reviewCard">
+        <div className=" d-md-flex align-items-center justify-content-between mt-5">
+          <Card style={{ maxWidth: "350px", backgroundColor: "var(--bg-pale-blue)" }} className="reviewCard mb-3">
             <Card.Body>
               <Image src={stars} width="100px" />
               <Texts
@@ -31,7 +31,7 @@ const Testimonial = () => {
               </div>
             </Card.Body>
           </Card>
-          <Card style={{ maxWidth: "350px", backgroundColor: "var(--bg-pale-blue)"  }} className="reviewCard">
+          <Card style={{ maxWidth: "350px", backgroundColor: "var(--bg-pale-blue)"  }} className="reviewCard mb-3">
             <Card.Body>
               <Image src={stars} width="100px" />
               <Texts
@@ -49,7 +49,7 @@ const Testimonial = () => {
               </div>
             </Card.Body>
           </Card>
-          <Card style={{ maxWidth: "350px", backgroundColor: "var(--bg-pale-blue)"}} className="reviewCard">
+          <Card style={{ maxWidth: "350px", backgroundColor: "var(--bg-pale-blue)"}} className="reviewCard mb-3">
             <Card.Body>
               <Image src={stars} width="100px" />
               <Texts

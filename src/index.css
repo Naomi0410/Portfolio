@@ -74,9 +74,21 @@ header {
   width: 50vw;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .heroImg {
     width: 90vw;
+  }
+  .heroCard{
+    width: 90vw !important;
+  }
+  .aboutImg{
+    width: 90vw;
+  }
+  .contactForm{
+    width: 90vw !important;
+  }
+  .footerDiv{
+    display: none !important;
   }
 }
 
@@ -85,5 +97,28 @@ header {
     width: 55vw;
     margin-top: 5rem;
   }
+  .heroCard{
+    width: 15rem !important;
+  }
+  .projectCard{
+    width: 270px
+  }
+  .contactForm{
+    width: 50vw !important;
+  }
 }
 
+@media (min-width: 900px) {
+  .heroCard{
+    width: 17rem !important;
+  }
+  .projectCard{
+    width: 350px
+  }
+}
+
+@media (min-width: 1285px) {
+  .heroCard{
+    width: 18rem !important;
+  }
+}

@@ -25,7 +25,7 @@ const Layout = () => {
                 TemiDev,
               </span>
             </div>
-            <div className="d-flex gap-5">
+            <div className="d-md-flex gap-5 footerDiv">
               <a href="#hero">Home</a>
               <a href="#portfolio">Portfolio</a>
               <a href="#about">About me</a>
@@ -38,8 +38,8 @@ const Layout = () => {
               <FaLinkedin />
             </div>
           </div>
-          <hr/>
-          <div className="d-flex justify-content-between mt-5">
+          <hr className="d-none d-md-block"/>
+          <div className="d-md-flex d-none justify-content-between mt-5">
             <p>Made by Temitope</p>
             <div className="d-flex gap-3">
               <p>Privacy policy</p>

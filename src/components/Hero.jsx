@@ -36,13 +36,14 @@ const Hero = () => {
         <Container fluid="xl" className="px-3 py-5 heroSection">
           <Texts text="My Skills" className="fw-bold" />
           <Headings text="My Expertise" />
-          <div className="d-flex  justify-content-between mt-5">
+          <div className="d-md-flex flex-wrap justify-content-between mt-5">
             <Card
               style={{
                 width: "18rem",
                 backgroundColor: "var(--bg-pale-blue)",
                 border: "0",
               }}
+              className="mb-3 heroCard"
             >
               <Card.Body>
                 <Image src={responsive} width="50px" />
@@ -63,6 +64,7 @@ const Hero = () => {
                 backgroundColor: "var(--bg-pale-blue)",
                 border: "0",
               }}
+               className="mb-3 heroCard"
             >
               <Card.Body>
                 <Image src={framework} width="50px" />
@@ -84,6 +86,7 @@ const Hero = () => {
                 backgroundColor: "var(--bg-pale-blue)",
                 border: "0",
               }}
+               className="mb-3 heroCard"
             >
               <Card.Body>
                 <Image src={testing} width="50px" />
@@ -105,6 +108,7 @@ const Hero = () => {
                 backgroundColor: "var(--bg-pale-blue)",
                 border: "0",
               }}
+               className="mb-3 heroCard"
             >
               <Card.Body>
                 <Image src={webFlow} width="50px" />

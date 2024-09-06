@@ -12,7 +12,7 @@ const Contact = () => {
           <Headings text="Contact me" />
         </div>
         <div className="contactForm mx-auto">
-          <Form className="mx-auto form">
+          <Form className="mx-auto form contactForm">
             <div className="d-flex justify-content-between">
               <div style={{ width: "45%" }}>
                 <Form.Label>First name</Form.Label>

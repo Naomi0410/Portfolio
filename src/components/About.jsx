@@ -7,9 +7,9 @@ const About = () => {
   return (
     <Container
       fluid="xl"
-      className="px-3 py-5 d-flex align-items-center justify-content-between"
+      className="px-3 py-5 d-md-flex align-items-center justify-content-between"
     >
-      <Image src={aboutImg} style={{ maxWidth: "500px" }} />
+      <Image src={aboutImg} style={{ maxWidth: "500px" }} className="aboutImg"/>
       <div style={{ maxWidth: "500px" }}>
         <Texts text="About" className="fw-bold" />
         <Headings text="About Me" />

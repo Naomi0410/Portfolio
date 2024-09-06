@@ -31,8 +31,8 @@ const Portfolio = () => {
 
         />
       </div>
-      <div className="d-flex align-items-center justify-content-between mt-5">
-        <Card style={{ maxWidth: "350px" }} className="border-0 shadow">
+      <div className="d-md-flex align-items-center justify-content-between mt-5">
+        <Card style={{ maxWidth: "350px" }} className="border-0 shadow mb-3 projectCard">
           <Card.Img
             variant="top"
             src={loopStudio}
@@ -48,7 +48,7 @@ const Portfolio = () => {
             <a href="https://github.com/Naomi0410/loop-studios" className="fw-bold">View Project <MdOutlineArrowOutward /></a>
           </Card.Body>
         </Card>
-        <Card style={{ maxWidth: "350px" }} className="border-0 shadow">
+        <Card style={{ maxWidth: "350px" }} className="border-0 shadow mb-3 projectCard">
           <Card.Img
             variant="top"
             src={teemSeller}
@@ -64,7 +64,7 @@ const Portfolio = () => {
             <a href="https://teem-seller-weld.vercel.app" className="fw-bold">View Website <MdOutlineArrowOutward /></a>
           </Card.Body>
         </Card>
-        <Card style={{ maxWidth: "350px" }} className="border-0 shadow">
+        <Card style={{ maxWidth: "350px" }} className="border-0 shadow mb-3 projectCard">
           <Card.Img
             variant="top"
             src={insure}
