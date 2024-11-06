@@ -1,6 +1,5 @@
 import logo from "./image 1.jpg";
-import heroImg from "./Hero-image.jpg";
-import aboutImg from "./About Me.jpg";
+import temi from "./temi.jpg"
 import responsive from "./Responsive.jpg";
 import framework from "./Framework.jpg";
 import webFlow from "./Webflow.jpg";
@@ -15,8 +14,7 @@ import stars from "./Stars.png"
 
 export {
   logo,
-  heroImg,
-  aboutImg,
+  temi,
   responsive,
   framework,
   webFlow,

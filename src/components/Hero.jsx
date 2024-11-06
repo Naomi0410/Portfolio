@@ -1,5 +1,5 @@
 import { Card, Container, Image } from "react-bootstrap";
-import { heroImg, responsive, testing, webFlow, framework } from "@/assets";
+import { temi, responsive, webFlow, framework } from "@/assets";
 import Texts from "./Texts";
 import Headings from "./Headings";
 import ActionButton from "./ActionButton";
@@ -25,11 +25,7 @@ const Hero = () => {
               />
             </a>
           </div>
-          <Image
-            src={heroImg}
-            style={{ maxWidth: "600px" }}
-            className="heroImg"
-          />
+          <Image src={temi} style={{ maxWidth: "600px" }} className="heroImg" />
         </Container>
       </div>
       <div>
@@ -53,8 +49,8 @@ const Hero = () => {
                   size="1.25rem"
                 />
                 <Card.Text>
-                  Responsive design ensures a website adapts to different screen
-                  sizes and devices, providing an optimal user experience.
+                  I ensure a website adapts to different screen sizes and
+                  devices, providing an optimal user experience.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -64,19 +60,18 @@ const Hero = () => {
                 backgroundColor: "var(--bg-pale-blue)",
                 border: "0",
               }}
-               className="mb-3 heroCard"
+              className="mb-3 heroCard"
             >
               <Card.Body>
                 <Image src={framework} width="50px" />
                 <Texts
-                  text="Front-End Frameworks"
+                  text="Front-End Structure & Framework "
                   className="mt-3 fw-bold"
                   size="1.25rem"
                 />
                 <Card.Text>
-                  Pre-built structures for efficient front-end development.
-                  Standardize coding practices and improve collaboration and
-                  enable rapid prototyping and development
+                  HTML5: Front-End Structure, <br />
+                  REACT: Front-End Framework.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -86,41 +81,40 @@ const Hero = () => {
                 backgroundColor: "var(--bg-pale-blue)",
                 border: "0",
               }}
-               className="mb-3 heroCard"
-            >
-              <Card.Body>
-                <Image src={testing} width="50px" />
-                <Texts
-                  text="Testing and Debugging"
-                  className="mt-3 fw-bold"
-                  size="1.25rem"
-                />
-                <Card.Text>
-                  Ensure software quality and reliability, identify and fix
-                  errors, bugs, and issues and validate functionality,
-                  performance, and security
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card
-              style={{
-                width: "18rem",
-                backgroundColor: "var(--bg-pale-blue)",
-                border: "0",
-              }}
-               className="mb-3 heroCard"
+              className="mb-3 heroCard"
             >
               <Card.Body>
                 <Image src={webFlow} width="50px" />
                 <Texts
-                  text="Cloud Services"
+                  text="Back-end (Server-side)"
                   className="mt-3 fw-bold"
                   size="1.25rem"
                 />
                 <Card.Text>
-                  On-demand access to scalable and flexible computing resources.
-                  Eliminate upfront costs, reduce maintenance, and increase
-                  agility.
+                  JavaScript (Node.js)- Server-side programming with Express.js
+                  as framework for building APIs.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{
+                width: "18rem",
+                backgroundColor: "var(--bg-pale-blue)",
+                border: "0",
+              }}
+              className="mb-3 heroCard"
+            >
+              <Card.Body>
+                <Image src={framework} width="50px" />
+                <Texts
+                  text="User-Interface Libraries"
+                  className="mt-3 fw-bold"
+                  size="1.25rem"
+                />
+                <Card.Text>
+                  Bootstrap,
+                  <br /> Tailwind CSS: Rapid development and consistent styling,
+                  <br /> CSS3: Styling Language.
                 </Card.Text>
               </Card.Body>
             </Card>
