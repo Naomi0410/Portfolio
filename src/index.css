@@ -76,13 +76,10 @@ header {
 
 @media (min-width: 320px) {
   .heroImg {
-    width: 90vw;
-  }
-  .heroCard{
-    width: 90vw !important;
+    width: 95%;
   }
   .aboutImg{
-    width: 90vw;
+    width: 95%;
   }
   .contactForm{
     width: 90vw !important;
@@ -92,16 +89,18 @@ header {
   }
 }
 
+
 @media (min-width: 768px) {
   .heroImg {
-    width: 55vw;
+    width: 45% !important;
     margin-top: 5rem;
   }
-  .heroCard{
-    width: 15rem !important;
+  .heroText{
+    width: 45% !important;
   }
-  .projectCard{
-    width: 270px
+  .textMar{
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
   }
   .contactForm{
     width: 50vw !important;
@@ -109,16 +108,14 @@ header {
 }
 
 @media (min-width: 900px) {
-  .heroCard{
-    width: 17rem !important;
+  .textMar{
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
   }
+
   .projectCard{
     width: 350px
   }
 }
 
-@media (min-width: 1285px) {
-  .heroCard{
-    width: 18rem !important;
-  }
-}
+

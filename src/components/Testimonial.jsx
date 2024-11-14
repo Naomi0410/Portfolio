@@ -9,7 +9,7 @@ const Testimonial = () => {
       <Container fluid="xl" className="px-3 py-5">
         <Texts text="Clients Feedback" className="fw-bold" />
         <Headings text="Customer Testimonials" />
-        <div className=" d-md-flex align-items-center justify-content-between mt-5">
+        <div className=" d-md-flex flex-wrap align-items-center justify-content-between mt-5">
           <Card
             style={{
               maxWidth: "350px",

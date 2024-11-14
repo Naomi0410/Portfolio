@@ -8,6 +8,7 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Testimonial from "./Testimonial";
 import Contact from "./Contact";
+import Scrollicons from "./Scrollicons";
 
 export {
   Headings,
@@ -19,5 +20,6 @@ export {
   About,
   Portfolio,
   Testimonial,
-  Contact
+  Contact,
+  Scrollicons
 };
